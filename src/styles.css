@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(243, 243, 243);
+  font-family: "Roboto", sans-serif;
+}
+.qnaSection {
+  width: 50%;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+  position: relative;
+}
+.questionSection {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.btns {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+  background: rgb(233, 233, 233);
+  border: none;
+}
+
+.nextBtn {
+  background: rgb(212, 212, 212);
+  padding: 10px;
+}
+.scoreSection {
+  width: 50%;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(255, 255, 255);
+}
+
+.scoreSection h1 {
+  font-size: 24px;
+}
+.scoreSection button {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background: rgb(231, 231, 231);
+}
+
+@media all and (max-width: 480px) {
+  .qnaSection {
+    width: 100%;
+    height: 100vh;
+  }
+  .scoreSection {
+    width: 100%;
+    height: 100vh;
+  }
+}
